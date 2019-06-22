@@ -1,5 +1,6 @@
+() => {
 // import $ from 'jquery';
-import {$,jQuery} from 'jquery';
+// import {$,jQuery} from 'jquery';
 // import * as jquery3 from '../node_modules/jquery/dist/jquery.min';
 // Winning combos:
 // square00, square01, square02
@@ -139,3 +140,4 @@ const move = function() {
     }
 };
 $('.choice').on('click', move);
+}
